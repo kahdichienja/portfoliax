@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
 * html {
   padding: 0;
@@ -6,12 +6,70 @@
   box-sizing: border-box;
 }
 
+
+:root {
+  --font-family: 'Manrope', sans-serif;
+
+  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+  
+  --color-bg: #040C18;
+  --color-footer : #031B34;
+  --color-blog: #042c54;
+  --color-text: #81AFDD;
+  --color-subtext: #FF8A71;
+}
+
+
 body {
   margin: 0;
-  font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background: var(--color-bg);
 }
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+.gradient__bg {
+  background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+
+  /* opera 11.10+ */
+  background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+
+  /* ie 10+ */
+  background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+
+  /* global 92%+ browsers support */
+  background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+}
+
+.gradient__text {
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section__padding {
+  padding: 4rem 6rem;
+}
+
+.section__margin {
+  margin: 4rem 6rem;
+}
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
 
 .gradient-bg-welcome {
   background-color:#0f0e13;
@@ -61,15 +119,17 @@ body {
 }
 
 .eth-card {
-  background-color:#a099ff;
+  background-color: var(--gradient-text);;
   background-image: 
-    radial-gradient(at 83% 67%, rgb(152, 231, 156) 0, transparent 58%), 
-    radial-gradient(at 67% 20%, hsla(357,94%,71%,1) 0, transparent 59%), 
+    /* radial-gradient(at 4% 36%, hsla(0,0%,100%,1) 0, transparent 53%), 
+    radial-gradient(at 100% 60%, rgb(0, 0, 0) 0, transparent 50%); */
+    radial-gradient(at 83% 67%, rgb(152, 157, 231) 0, transparent 58%), 
+    radial-gradient(at 67% 20%, rgb(70, 81, 184) 0, transparent 59%), 
     radial-gradient(at 88% 35%, hsla(222,81%,65%,1) 0, transparent 50%), 
-    radial-gradient(at 31% 91%, hsla(9,61%,61%,1) 0, transparent 52%), 
-    radial-gradient(at 27% 71%, hsla(336,91%,65%,1) 0, transparent 49%), 
-    radial-gradient(at 74% 89%, hsla(30,98%,65%,1) 0, transparent 51%), 
-    radial-gradient(at 53% 75%, hsla(174,94%,68%,1) 0, transparent 45%);
+    radial-gradient(at 31% 91%, rgb(49, 47, 168) 0, transparent 52%), 
+    radial-gradient(at 27% 71%, rgb(48, 29, 119) 0, transparent 49%), 
+    radial-gradient(at 74% 89%, rgb(12, 5, 114) 0, transparent 51%), 
+    radial-gradient(at 53% 75%, rgb(2, 5, 31) 0, transparent 45%);
 }
 
 .text-gradient {
@@ -77,6 +137,49 @@ body {
   background-image: radial-gradient(at 4% 36%, hsla(0,0%,100%,1) 0, transparent 53%), radial-gradient(at 100% 60%, rgb(0, 0, 0) 0, transparent 50%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .section__padding {
+    padding: 4rem;
+  }
+
+  .section__margin {
+    margin: 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .section__padding {
+    padding: 4rem 2rem;
+  }
+
+  .section__margin {
+    margin: 4rem 2rem;
+  }  
 }
 
 @tailwind base;
