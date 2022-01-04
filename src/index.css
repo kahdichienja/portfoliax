@@ -28,7 +28,19 @@ body {
 
   background: var(--color-bg);
 }
-
+.iphone{
+  position: relative;
+  margin: 0;
+  border-radius: 40px;
+  border-top: 0;
+  border-width: 3px;
+  border-style: solid;
+  border-image: linear-gradient(
+    to bottom, 
+    rgb(47, 62, 106), 
+    rgb(114, 39, 65)
+  ) 1 100%;
+}
 a {
   color: unset;
   text-decoration: none;

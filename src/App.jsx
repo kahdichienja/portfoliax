@@ -2,7 +2,7 @@ import { Navbar, Header, WhatPortfolioX, Feature, Possibilities, Services, Foote
 import { Brand, CTA } from "./components";
 
 const App = () => (
-  <div className="min-h-screen">
+  <div className="min-h-screen iphone rounded">
     <Navbar />
     <div className="gradient-bg-welcome">
       <div className="gradient__bg">
