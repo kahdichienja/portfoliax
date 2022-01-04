@@ -11,10 +11,8 @@ const Header = () => (
     <div className="portfolioX__header-content">
       <h1 className="gradient__text"> PotfolioX</h1>
       <p className="text-3xl sm:text-5xl text-white text-gradient py-1">
-        Let&apos;s Showcase our strength with PotfolioX. <br />
-        Similar to static http servers, Vite has the concept of a root directory which your <br />
-        files are served from. You will see it referenced as throughout the rest of the docs. <br />
-        Absolute URLs in your source code will be resolved using the project root as base,
+        Let&apos;s Showcase our strength with PotfolioX.
+        This where i Showcase my personal and client projects that are online <br />
       </p>
       <div className="portfolioX__header-content__input">
         <button type="button" className="bg-[#2952e3] py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#2546bd]">Get Started</button>
@@ -22,7 +20,7 @@ const Header = () => (
 
       <div className="portfolioX__header-content__people">
         <img src={people} />
-        <p>1,600 people are using portfoliox in last 24 hours</p>
+        <p>1,600 people are using Portfolio X in last 24 hours</p>
       </div>
     </div>
     <div className="portfolioX__header-image">
