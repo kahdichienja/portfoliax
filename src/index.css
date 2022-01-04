@@ -33,10 +33,10 @@ body {
   margin: 0;
   border-radius: 40px;
   border-top: 0;
-  border-width: 3px;
+  border-width: 1px;
   border-style: solid;
   border-image: linear-gradient(
-    to bottom, 
+    to right, 
     rgb(47, 62, 106), 
     rgb(114, 39, 65)
   ) 1 100%;

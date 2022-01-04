@@ -1,11 +1,12 @@
 
 .notched {
 
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 50%;
     width: 85%;
     height: 70px;
+    z-index: 1;
     border-radius: 0 0 28px 28px;
     transform: translateX(-50%);
     
