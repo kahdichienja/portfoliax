@@ -6,7 +6,7 @@ const WhatPortfolioX = () => (
   <div className="portfolioX__portfolioX section__margin rounded" id="wgpt3">
     <div className="portfolioX__portfolioX-feature">
       <Feature
-        title="What is GPT-3"
+        title="What is portfolioX"
         classX="text-gradient"
         text="We so opinion friends me message as delight. Whole front do of
         plate heard oh ought. His defective nor convinced residence own.
