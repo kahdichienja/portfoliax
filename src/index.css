@@ -148,7 +148,6 @@ a {
   -webkit-text-fill-color: transparent;
 }
 
-
 @-webkit-keyframes scale-up-center {
   0% {
     -webkit-transform: scale(0.5);
