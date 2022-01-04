@@ -78,6 +78,15 @@ a {
     radial-gradient(at 50% 0%, hsla(225,39%,30%,1) 0, transparent 50%), 
     radial-gradient(at 100% 0%, hsla(339,49%,30%,1) 0, transparent 50%);
 }
+.gradient-bg-feature {
+  background-color: rgba(0, 40, 83, 1);
+  background-image: 
+    radial-gradient(circle at 0% 0%, rgba(0, 40, 83, 1) 0, transparent 80%), 
+    radial-gradient(circle at 25% 0%, rgb(74, 34, 117) 0, transparent 50%), 
+    radial-gradient(circle at 50% 0%, #F49867 0, transparent 50%), 
+    radial-gradient(circle at 75% 0%, rgba(4, 12, 24, 1) 0, transparent 60%), 
+    radial-gradient(circle at 100% 0%, #0f0e13 0, transparent 90%);
+}
 
 .gradient-bg-services {
   background-color:#0f0e13;

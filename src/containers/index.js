@@ -1,6 +1,10 @@
 // export { default as Article } from "./article/Article";
 // export { default as Brand } from "./brand/Brand";
 // export { default as CTA } from "./cta/CTA";
-// export { default as Feature } from './feature/Feature';
+export { default as Services } from "./services/Services";
+export { default as Feature } from "./features/Features";
+export { default as Possibilities } from "./possibility/Possibility";
+export { default as WhatPortfolioX } from "./whatPortfolioX/WhatPortfolioX";
 export { default as Navbar } from "./navbar/Navbar";
 export { default as Header } from "./home/Header";
+export { default as Footer } from "./footer/Footer";
