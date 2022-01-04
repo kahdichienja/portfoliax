@@ -1,0 +1,67 @@
+
+.notched {
+
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 85%;
+    height: 70px;
+    border-radius: 0 0 28px 28px;
+    transform: translateX(-50%);
+    
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 45% 0%, rgba(114, 39, 65, 1) 0%, rgba(16, 15, 21, 1) 49%, rgba(47, 62, 106, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 45% 0%, rgba(114, 39, 65, 1) 0%, rgba(16, 15, 21, 1) 49%, rgba(47, 62, 106, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 45% 0%, rgba(114, 39, 65, 1) 0%, rgba(16, 15, 21, 1) 49%, rgba(47, 62, 106, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 45% 0%, rgba(114, 39, 65, 1) 0%, rgba(16, 15, 21, 1) 49%, rgba(47, 62, 106, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 45% 0%, rgba(114, 39, 65, 1) 0%, rgba(16, 15, 21, 1) 49%, rgba(47, 62, 106, 1) 100%);
+
+
+}
+.notched::before, ::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: var(--corner-size) * 1px;
+  width: var(--corner-size) * 2px;
+  height: var(--corner-size) * 1px;
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+  background-image: radial-gradient(
+    circle at 0 100%,
+    transparent var(--corner-size) - 1px,
+    radial-gradient(circle at 45% 0%, rgba(114, 39, 65, 1) 0%, rgba(16, 15, 21, 1) 49%, rgba(47, 62, 106, 1) 100%) var(--corner-size) * 1px
+  );
+}
+
+.notched::after {
+    left: 100%;
+    margin-right: corner-sizepx;
+    background-image: radial-gradient(
+      circle at 100% 100%,
+      transparent var(--corner-size) - 1px,
+      radial-gradient(circle at 45% 0%, rgba(114, 39, 65, 1) 0%, rgba(16, 15, 21, 1) 49%, rgba(47, 62, 106, 1) 100%) var(--corner-size) var(--corner-size) * 1px
+    );
+  }
+
+
+  @media screen and (max-width: 700px) {
+    .notched {
+        width: 100%;
+    }
+  
+  }
+  
+  @media screen and (max-width: 550px) {
+    .notched {
+        width: 100%;
+    }
+  }

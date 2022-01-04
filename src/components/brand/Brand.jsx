@@ -1,23 +1,33 @@
 import React from "react";
-import { google, slack, atlassian, dropbox, shopify } from "./imports";
+import {
+  iconlogo1,
+  iconlogo2,
+  iconlogo3,
+  iconlogo4,
+  iconlogo5,
+  iconlogo6,
+} from "./imports";
 import "./brand.css";
 
 const Brand = () => (
   <div className="portfolioX__brand section__padding">
     <div>
-      <img src={google} />
+      <img src={iconlogo1} />
     </div>
     <div>
-      <img src={slack} />
+      <img src={iconlogo2} />
     </div>
     <div>
-      <img src={atlassian} />
+      <img src={iconlogo3} />
     </div>
     <div>
-      <img src={dropbox} />
+      <img src={iconlogo4} />
     </div>
     <div>
-      <img src={shopify} />
+      <img src={iconlogo5} />
+    </div>
+    <div>
+      <img src={iconlogo6} />
     </div>
   </div>
 );

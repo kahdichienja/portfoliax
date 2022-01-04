@@ -3,8 +3,8 @@ import { Brand, CTA } from "./components";
 
 const App = () => (
   <div className="min-h-screen">
+    <Navbar />
     <div className="gradient-bg-welcome">
-      <Navbar />
       <div className="gradient__bg">
         <Header />
       </div>

@@ -4,10 +4,10 @@ import "./header.css";
 // import { BsInfoCircle } from "react-icons/bs";
 import people from "../../assets/people.png";
 // import logoicon from "../../assets/logoicon.png";
-import possibilityImage from "../../assets/possibility.png";
+import possibilityImage from "../../assets/oclus2.png";
 
 const Header = () => (
-  <div className="portfolioX__header section__padding" id="home">
+  <div className="portfolioX__header section__padding pt-20 pb-40" id="home">
     <div className="portfolioX__header-content">
       <h1 className="gradient__text"> PotfolioX</h1>
       <p className="text-3xl sm:text-5xl text-white text-gradient py-1">

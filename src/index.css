@@ -18,8 +18,8 @@
   --color-blog: #042c54;
   --color-text: #81AFDD;
   --color-subtext: #FF8A71;
+  --corner-size: 7;
 }
-
 
 body {
   margin: 0;

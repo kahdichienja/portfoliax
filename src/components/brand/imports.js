@@ -1,13 +1,15 @@
-import google from "../../assets/google.png";
-import slack from "../../assets/slack.png";
-import atlassian from "../../assets/atlassian.png";
-import dropbox from "../../assets/dropbox.png";
-import shopify from "../../assets/shopify.png";
+import iconlogo1 from "../../assets/iconlogo1.png";
+import iconlogo2 from "../../assets/iconlogo2.png";
+import iconlogo3 from "../../assets/iconlogo3.png";
+import iconlogo4 from "../../assets/iconlogo4.png";
+import iconlogo5 from "../../assets/iconlogo5.png";
+import iconlogo6 from "../../assets/iconlogo6.png";
 
 export {
-  google,
-  slack,
-  atlassian,
-  dropbox,
-  shopify,
+  iconlogo1,
+  iconlogo2,
+  iconlogo3,
+  iconlogo4,
+  iconlogo5,
+  iconlogo6,
 };
