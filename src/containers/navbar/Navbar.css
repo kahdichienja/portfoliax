@@ -58,6 +58,7 @@
     .notched {
         width: 100%;
         background: transparent;
+        position: absolute;
     }
   
   }
@@ -66,5 +67,6 @@
     .notched {
         width: 100%;
         background: transparent;
+        position: absolute;
     }
   }
