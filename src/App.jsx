@@ -1,4 +1,4 @@
-import { Navbar, Header, WhatPortfolioX, Feature, Possibilities, Services, Footer } from "./containers";
+import { Navbar, Header, WhatPortfolioX, Feature, Possibilities, Services, Projects, Footer } from "./containers";
 import { Brand, CTA } from "./components";
 
 const App = () => (
@@ -24,6 +24,7 @@ const App = () => (
     <div className="gradient__bg pt-5 pb-5 rounded">
       <CTA />
     </div>
+    <Projects />
     <Services />
     <Footer />
   </div>
