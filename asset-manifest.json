@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfoliax/static/css/main.397890cb.css",
+    "main.js": "/portfoliax/static/js/main.e71052fb.js",
+    "static/media/NRP-Cross_Post_Oculus_5year_anniversary_banner.png": "/portfoliax/static/media/NRP-Cross_Post_Oculus_5year_anniversary_banner.21aa9b4ff8cc01fd250a.png",
+    "static/media/iconlogo1.png": "/portfoliax/static/media/iconlogo1.e1411673cb6a337aeed8.png",
+    "static/media/oclus2.png": "/portfoliax/static/media/oclus2.362b186d736f4a8ebced.png",
+    "static/media/iconlogo7.png": "/portfoliax/static/media/iconlogo7.c5512d351109d1045fd1.png",
+    "static/media/iconlogo5.png": "/portfoliax/static/media/iconlogo5.d518a22b5d8858f697cc.png",
+    "static/media/iconlogo3.png": "/portfoliax/static/media/iconlogo3.a698990012c5dabd51bc.png",
+    "static/media/iconlogo2.png": "/portfoliax/static/media/iconlogo2.ee987bb35d9d14f3f24a.png",
+    "static/media/logo.png": "/portfoliax/static/media/logo.472d76c0ab8c08ee8564.png",
+    "static/media/iconlogo4.png": "/portfoliax/static/media/iconlogo4.8392f40c3e3c7a76af96.png",
+    "static/media/iconlogo6.png": "/portfoliax/static/media/iconlogo6.c7162f43921326a63f2c.png",
+    "static/media/people.png": "/portfoliax/static/media/people.5cd2d6fbcd48bd63f106.png",
+    "index.html": "/portfoliax/index.html",
+    "main.397890cb.css.map": "/portfoliax/static/css/main.397890cb.css.map",
+    "main.e71052fb.js.map": "/portfoliax/static/js/main.e71052fb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.397890cb.css",
+    "static/js/main.e71052fb.js"
+  ]
+}
