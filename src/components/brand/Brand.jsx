@@ -6,6 +6,7 @@ import {
   iconlogo4,
   iconlogo5,
   iconlogo6,
+  iconlogo7,
 } from "./imports";
 import "./brand.css";
 
@@ -28,6 +29,9 @@ const Brand = () => (
     </div>
     <div>
       <img src={iconlogo6} />
+    </div>
+    <div>
+      <img src={iconlogo7} />
     </div>
   </div>
 );

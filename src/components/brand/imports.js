@@ -4,6 +4,7 @@ import iconlogo3 from "../../assets/iconlogo3.png";
 import iconlogo4 from "../../assets/iconlogo4.png";
 import iconlogo5 from "../../assets/iconlogo5.png";
 import iconlogo6 from "../../assets/iconlogo6.png";
+import iconlogo7 from "../../assets/iconlogo7.png";
 
 export {
   iconlogo1,
@@ -12,4 +13,5 @@ export {
   iconlogo4,
   iconlogo5,
   iconlogo6,
+  iconlogo7,
 };
