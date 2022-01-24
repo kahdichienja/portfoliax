@@ -32,7 +32,7 @@ const Footer = () => (
       </div>
       <div className="portfolioX__footer-links_div">
         <h4>Get in touch</h4>
-        <p>Chienjah Dev Inc and PortfolioX LLC</p>
+        <p>Chienjah Dev Inc and PortfolioX LLC.</p>
         <p>+2547 97 324 006</p>
         <p>uniminu36@gmail.com</p>
       </div>
