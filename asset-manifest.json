@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c8d257ff.css",
-    "main.js": "/portfolio/static/js/main.7c9a76d0.js",
-    "static/media/NRP-Cross_Post_Oculus_5year_anniversary_banner.png": "/portfolio/static/media/NRP-Cross_Post_Oculus_5year_anniversary_banner.21aa9b4ff8cc01fd250a.png",
-    "static/media/iconlogo1.png": "/portfolio/static/media/iconlogo1.e1411673cb6a337aeed8.png",
-    "static/media/oclus2.png": "/portfolio/static/media/oclus2.362b186d736f4a8ebced.png",
-    "static/media/iconlogo7.png": "/portfolio/static/media/iconlogo7.c5512d351109d1045fd1.png",
-    "static/media/iconlogo5.png": "/portfolio/static/media/iconlogo5.d518a22b5d8858f697cc.png",
-    "static/media/iconlogo3.png": "/portfolio/static/media/iconlogo3.a698990012c5dabd51bc.png",
-    "static/media/iconlogo2.png": "/portfolio/static/media/iconlogo2.ee987bb35d9d14f3f24a.png",
-    "static/media/logo.png": "/portfolio/static/media/logo.472d76c0ab8c08ee8564.png",
-    "static/media/iconlogo4.png": "/portfolio/static/media/iconlogo4.8392f40c3e3c7a76af96.png",
-    "static/media/iconlogo6.png": "/portfolio/static/media/iconlogo6.c7162f43921326a63f2c.png",
-    "static/media/people.png": "/portfolio/static/media/people.5cd2d6fbcd48bd63f106.png",
-    "index.html": "/portfolio/index.html",
-    "main.c8d257ff.css.map": "/portfolio/static/css/main.c8d257ff.css.map",
-    "main.7c9a76d0.js.map": "/portfolio/static/js/main.7c9a76d0.js.map"
+    "main.css": "/portfoliax/static/css/main.c8d257ff.css",
+    "main.js": "/portfoliax/static/js/main.614f47c0.js",
+    "static/media/NRP-Cross_Post_Oculus_5year_anniversary_banner.png": "/portfoliax/static/media/NRP-Cross_Post_Oculus_5year_anniversary_banner.21aa9b4ff8cc01fd250a.png",
+    "static/media/iconlogo1.png": "/portfoliax/static/media/iconlogo1.e1411673cb6a337aeed8.png",
+    "static/media/oclus2.png": "/portfoliax/static/media/oclus2.362b186d736f4a8ebced.png",
+    "static/media/iconlogo7.png": "/portfoliax/static/media/iconlogo7.c5512d351109d1045fd1.png",
+    "static/media/iconlogo5.png": "/portfoliax/static/media/iconlogo5.d518a22b5d8858f697cc.png",
+    "static/media/iconlogo3.png": "/portfoliax/static/media/iconlogo3.a698990012c5dabd51bc.png",
+    "static/media/iconlogo2.png": "/portfoliax/static/media/iconlogo2.ee987bb35d9d14f3f24a.png",
+    "static/media/logo.png": "/portfoliax/static/media/logo.472d76c0ab8c08ee8564.png",
+    "static/media/iconlogo4.png": "/portfoliax/static/media/iconlogo4.8392f40c3e3c7a76af96.png",
+    "static/media/iconlogo6.png": "/portfoliax/static/media/iconlogo6.c7162f43921326a63f2c.png",
+    "static/media/people.png": "/portfoliax/static/media/people.5cd2d6fbcd48bd63f106.png",
+    "index.html": "/portfoliax/index.html",
+    "main.c8d257ff.css.map": "/portfoliax/static/css/main.c8d257ff.css.map",
+    "main.614f47c0.js.map": "/portfoliax/static/js/main.614f47c0.js.map"
   },
   "entrypoints": [
     "static/css/main.c8d257ff.css",
-    "static/js/main.7c9a76d0.js"
+    "static/js/main.614f47c0.js"
   ]
 }
