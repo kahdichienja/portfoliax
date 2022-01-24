@@ -8,21 +8,19 @@ const WhatPortfolioX = () => (
       <Feature
         title="What is portfolioX"
         classX="text-gradient"
-        text="We so opinion friends me message as delight. Whole front do of
-        plate heard oh ought. His defective nor convinced residence own.
-        Connection has put impossible own apartments boisterous. At
-        jointure ladyship an insisted so humanity he. Friendly
-        bachelor entrance to on by."
+        text="We help developers and non devs create and share their portfolio, help devs share persional projects and their prototype
+        in one place by creating account in the platform.
+        "
       />
     </div>
     <div className="portfolioX__portfolioX-heading">
       <h1 className="gradient__text">The possibilities are beyond your imagination</h1>
-      <p>Explore the Library</p>
+      {/* <p>Explore the Library</p> */}
     </div>
     <div className="portfolioX__portfolioX-container">
-      <Feature classX="text-gradient" title="Chatbots" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought." />
-      <Feature classX="text-gradient" title="Knowledgebase" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />
-      <Feature classX="text-gradient" title="Education" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />
+      <Feature classX="text-gradient" title="Easy to Use" text="Just click and save." />
+      <Feature classX="text-gradient" title="Quick" text="Create account with one click." />
+      <Feature classX="text-gradient" title="Future" text="Optimistic that this will be the next generation portfolio sharing platform." />
     </div>
   </div>
 );

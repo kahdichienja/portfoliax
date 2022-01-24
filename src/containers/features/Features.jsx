@@ -5,19 +5,15 @@ import "./features.css";
 const featuresData = [
   {
     title: "Improving end distrusts instantly",
-    text: "From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.",
+    text: "You need to connect the dot...",
   },
   {
-    title: "Become the tended active",
-    text: "Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.",
+    title: "Become the master of all",
+    text: "Actually no one can't know whether you are that master unless you show them.",
   },
   {
-    title: "Message or am nothing",
-    text: "Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.",
-  },
-  {
-    title: "Really boy law county",
-    text: "Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush..",
+    title: "Show it or am nothing",
+    text: "Well if you keep it low, nobody, absolutely no one will know that you know how to do it on the fly. Keep pushing.",
   },
 ];
 
