@@ -1,7 +1,7 @@
 {
   "name": "portfolix",
   "version": "0.1.0",
-  "homepage": "http://kahdichienja.github.io/portfolio",
+  "homepage": "http://kahdichienja.github.io/portfoliax",
   "private": true,
   "dependencies": {
     "@tailwindcss/forms": "^0.3.4",
