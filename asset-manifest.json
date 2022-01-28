@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfoliax/static/css/main.c8d257ff.css",
-    "main.js": "/portfoliax/static/js/main.614f47c0.js",
+    "main.js": "/portfoliax/static/js/main.9c174d35.js",
     "static/media/NRP-Cross_Post_Oculus_5year_anniversary_banner.png": "/portfoliax/static/media/NRP-Cross_Post_Oculus_5year_anniversary_banner.21aa9b4ff8cc01fd250a.png",
     "static/media/iconlogo1.png": "/portfoliax/static/media/iconlogo1.e1411673cb6a337aeed8.png",
     "static/media/oclus2.png": "/portfoliax/static/media/oclus2.362b186d736f4a8ebced.png",
@@ -15,10 +15,10 @@
     "static/media/people.png": "/portfoliax/static/media/people.5cd2d6fbcd48bd63f106.png",
     "index.html": "/portfoliax/index.html",
     "main.c8d257ff.css.map": "/portfoliax/static/css/main.c8d257ff.css.map",
-    "main.614f47c0.js.map": "/portfoliax/static/js/main.614f47c0.js.map"
+    "main.9c174d35.js.map": "/portfoliax/static/js/main.9c174d35.js.map"
   },
   "entrypoints": [
     "static/css/main.c8d257ff.css",
-    "static/js/main.614f47c0.js"
+    "static/js/main.9c174d35.js"
   ]
 }
